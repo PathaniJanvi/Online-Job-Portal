@@ -33,16 +33,25 @@ namespace OnlineJobPortal.User
             txtUserName.Text = "";
             txtPassword.Text = "";
         }
-
+        void imgupload()
+        {
+            if (flpImage.HasFile)
+            {
+                fnm = "RegisterImage/" + flpImage.FileName;
+                flpImage.SaveAs(Server.MapPath(fnm));
+            }
+        }
         protected void btnRegister_Click(object sender, EventArgs e)
         {
             if (btnRegister.Text == "Register")
             {
                 getcon();
-
-                cmd = new SqlCommand("insert into Register(UserName,PassWord,FullName,Address,MobileNumber,Email) values('" + txtUserName.Text + "' , '" + txtPassword.Text + "' ,  '" + txtFullName.Text + "' , '" + txtAddress.Text + "', '" + txtMobile.Text + "' , '" + txtEmail.Text + "')", con);
+                imgupload();
+                cmd = new SqlCommand("insert into Register(UserName,PassWord,FullName,Image,Gender,Address,MobileNumber,Email) values('" + txtUserName.Text + "' , '" + txtPassword.Text + "' ,  '" + txtFullName.Text + "', '" + fnm + "' ,'" + rdbGender.Text + "', '" + txtAddress.Text + "', '" + txtMobile.Text + "' , '" + txtEmail.Text + "')", con);
                 cmd.ExecuteNonQuery();
                 clear();
+                Response.Redirect("Login.aspx");
+               
             }
         }
     }

@@ -37,7 +37,7 @@
                     </div>
                     <div class="form-group mt-3 text-xl-center">
                         <%-- <button type="submit" class="button button-contactForm boxed-btn">Send</button> --%>
-                        <asp:Button ID="btnLogin" class="button button-contactForm boxed-btn" runat="server" Text="Login" />
+                        <asp:Button ID="btnLogin" class="button button-contactForm boxed-btn" runat="server" Text="Login" OnClick="btnLogin_Click" />
                         <span class="clickLink" style="color: red;">
                             <a href="../User/Register.aspx">New User? Click Here...</a>
                         </span>
