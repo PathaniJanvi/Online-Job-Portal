@@ -46,7 +46,7 @@ namespace OnlineJobPortal.Admin
                 }
                 else
                 {
-                    Response.Write("<script> alrt('Invalid User')</script>");
+                    Response.Write("<script> alert('Invalid User')</script>");
                 }
 
 

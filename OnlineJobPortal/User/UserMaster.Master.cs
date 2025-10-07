@@ -12,45 +12,44 @@ namespace OnlineJobPortal.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-            //    if (Session["user"] != null)
-            //    {
-            //        lbRegisterorProfile.Text = "Profile";
-            //        lbLoginorLogout.Text = "Logout";
-            //    }
-            //    else
-            //    {
-            //        lbRegisterorProfile.Text = "Register";
-            //        lbLoginorLogout.Text = "Login";
-            //    }
-            //}
+
+            if (Session["admin"] != null)
+            {
+                lbRegisterorProfile.Text = "Profile";  
+                lbLoginorLogout.Text = "Logout";      
+            }
+            else
+            {
+                lbRegisterorProfile.Text = "Register"; 
+                lbLoginorLogout.Text = "Login";         
+            }
+
 
         }
 
-        //protected void lbLoginorLogout_Click(object sender, EventArgs e)
-        //{
-        //    if (Session["user"] == null)
-        //    {
-        //        Response.Redirect("Login.aspx");
-        //    }
-        //    else
-        //    {
-        //        Session.Abandon();
-        //        Response.Redirect("Logout.aspx");
-        //    }
-        //}
+        protected void lbLoginorLogout_Click(object sender, EventArgs e)
+        {
+            if (Session["admin"] == null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                Session.Abandon();
+                Response.Redirect("Logout.aspx");
+            }
+        }
 
-        //protected void lbRegisterorProfile_Click(object sender, EventArgs e)
-        //{
-        //    if (Session["user"] != null)
-        //    {
-        //        Response.Redirect("Profile.aspx"); 
-        //    }
-        //    else
-        //    {
-        //        Response.Redirect("Register.aspx");
-        //    }
-        //}
+        protected void lbRegisterorProfile_Click(object sender, EventArgs e)
+        {
+            if (Session["admin"] != null)
+            {
+                Response.Redirect("Profile.aspx");
+            }
+            else
+            {
+                Response.Redirect("Register.aspx");
+            }
+        }
     }
 }

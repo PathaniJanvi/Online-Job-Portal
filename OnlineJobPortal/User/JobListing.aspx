@@ -123,7 +123,7 @@
 
     <main>
 
-        <!-- Job List Area Start -->
+        <a href="file:///e:\5th%20bca\asp.net(pb)\onlinejobportal\onlinejobportal\companylogo\">file:///e:\5th bca\asp.net(pb)\onlinejobportal\onlinejobportal\companylogo\</a><!-- Job List Area Start -->
         <div class="job-listing-area pt-50 pb-120">
             <div class="container">
                 <div class="row">
@@ -175,7 +175,7 @@
                                         <asp:ListItem>South Africa</asp:ListItem>
                                         <asp:ListItem>Mexico</asp:ListItem>
                                     </asp:DropDownList>--%>
-                                    <asp:DropDownList ID="ddlCountry" runat="server" AutoPostBack="True">
+                                    <asp:DropDownList ID="ddlCountry" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlCountry_SelectedIndexChanged1" >
                                         <asp:ListItem>India</asp:ListItem>
                                         <asp:ListItem>United States</asp:ListItem>
                                         <asp:ListItem>Canada</asp:ListItem>
@@ -222,7 +222,7 @@
                             <!-- single three -->
                             <div class="single-listing">
                                 <!-- select-Categories start -->
-                                <div class="select-Categories pb-50">
+                                <%--<div class="select-Categories pb-50">
                                     <div class="small-section-tittle2">
                                         <h4>Posted Within</h4>
                                     </div>
@@ -237,7 +237,7 @@
                                             <asp:ListItem Value="5">Last 10 days</asp:ListItem>
                                         </asp:RadioButtonList>
                                     </div>
-                                </div>
+                                </div>--%>
                                 <!-- select-Categories End -->
                                 <div class="mb-1">
                                     <asp:LinkButton ID="lbFilter" runat="server" CssClass="btn btn-sm" Width="100%"
@@ -268,38 +268,44 @@
                                 </div>
                                 <!-- Count of Job list End -->
                                 <!-- single-job-content -->
-                                <asp:DataList ID="DataList1" runat="server">
-                                    <ItemTemplate>
-                                        <div class="single-job-items mb-30">
-                                            <div class="job-items">
-                                                <div class="company-img">
-                                                    <a href="JobDetails.aspx?id=<%# Eval("JobId") %>">
+                                <div style="width: 100%;">
+                                    <center>
+                                        <asp:DataList ID="DataList1" runat="server"  Width="100%" OnSelectedIndexChanged="DataList1_SelectedIndexChanged">
+                                            <ItemTemplate>
+                                                <div style="width: 100%;">
+                                                    <div class="single-job-items mb-30">
+                                                        <div class="job-items">
+                                                            <div class="company-img">
+                                                                <a href="JobDetails.aspx?id=<%# Eval("JobId") %>">
 
-                                                        <asp:Image ID="Image1" runat="server" Width="80" ImageUrl='<%# Eval("CompanyLogo") %>' />
-                                                    </a>
-                                                    &nbsp;&nbsp;&nbsp;
+                                                                    <asp:Image ID="Image1" runat="server" Width="80px" ImageUrl='<%# Eval("CompanyLogo") %>' />
+                                                                </a>
+                                                                &nbsp;&nbsp;&nbsp;
+                                                            </div>
+                                                            <div class="job-tittle job-tittle2">
+                                                                <a href="JobDetails.aspx?id=<%# Eval("JobId") %>">
+                                                                    <h5><%# Eval("Title") %></h5>
+                                                                </a>
+                                                                <ul>
+                                                                    <li><%# Eval("CompanyName") %></li>
+                                                                    <li><i class="fas fa-map-marker-alt"></i><%# Eval("State") %>, <%# Eval("Country") %></li>
+                                                                    <li><%# Eval("Salary") %></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="items-link items-link2 f-right">
+                                                            <a href="JobDetails.aspx?id=<%# Eval("JobId") %>"><%# Eval("JobType") %></a>
+                                                            <span class="text-secondary">
+                                                                <i class="fas fa-clock pr-1"></i>
+                                                                <%# RelativeDate(Convert.ToDateTime(Eval("CreatedDate"))) %>
+                                                            </span>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="job-tittle job-tittle2">
-                                                    <a href="JobDetails.aspx?id=<%# Eval("JobId") %>">
-                                                        <h5><%# Eval("Title") %></h5>
-                                                    </a>
-                                                    <ul>
-                                                        <li><%# Eval("CompanyName") %></li>
-                                                        <li><i class="fas fa-map-marker-alt"></i><%# Eval("State") %>, <%# Eval("Country") %></li>
-                                                        <li><%# Eval("Salary") %></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="items-link items-link2 f-right">
-                                                <a href="JobDetails.aspx?id=<%# Eval("JobId") %>"><%# Eval("JobType") %></a>
-                                                <span class="text-secondary">
-                                                    <i class="fas fa-clock pr-1"></i>
-                                                    <%# RelativeDate(Convert.ToDateTime(Eval("CreatedDate"))) %>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </ItemTemplate>
-                                </asp:DataList>
+                                            </ItemTemplate>
+                                        </asp:DataList>
+                                    </center>
+                                </div>
                             </div>
                         </section>
                         <!-- Featured_job_end -->

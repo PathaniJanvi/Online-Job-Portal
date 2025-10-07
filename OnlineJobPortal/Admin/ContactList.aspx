@@ -26,22 +26,22 @@
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Name">
                                     <ItemTemplate>
-                                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("Message") %>'></asp:Label>
+                                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("Name") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Email">
                                     <ItemTemplate>
-                                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("Name") %>'></asp:Label>
+                                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("Email") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Subject">
                                     <ItemTemplate>
-                                        <asp:Label ID="Label4" runat="server" Text='<%# Eval("Email") %>'></asp:Label>
+                                        <asp:Label ID="Label4" runat="server" Text='<%# Eval("Subject") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Message">
                                     <ItemTemplate>
-                                        <asp:Label ID="Label5" runat="server" Text='<%# Eval("Subject") %>'></asp:Label>
+                                        <asp:Label ID="Label5" runat="server" Text='<%# Eval("Message") %>'></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 <asp:TemplateField HeaderText="Delete">

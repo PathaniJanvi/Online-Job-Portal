@@ -38,35 +38,36 @@
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="CompanyName">
                                 <ItemTemplate>
-                                    <asp:Label ID="Label5" runat="server" Text='<%# Eval(" CompanyName ") %>'></asp:Label>
+                                    <asp:Label ID="Label5" runat="server" Text='<%# Eval("CompanyName") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="Country">
                                 <ItemTemplate>
-                                    <asp:Label ID="Label5" runat="server" Text='<%# Eval(" Country ") %>'></asp:Label>
+                                    <asp:Label ID="Label6" runat="server" Text='<%# Eval(" Country ") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="State">
                                 <ItemTemplate>
-                                    <asp:Label ID="Label5" runat="server" Text='<%# Eval(" State ") %>'></asp:Label>
+                                    <asp:Label ID="Label7" runat="server" Text='<%# Eval(" State ") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
                             <asp:TemplateField HeaderText="CreatedDate">
                                 <ItemTemplate>
-                                    <asp:Label ID="Label5" runat="server" Text='<%# Eval(" CreatedDate ") %>'></asp:Label>
+                                    <asp:Label ID="Label8" runat="server" Text='<%# Eval(" CreatedDate ") %>'></asp:Label>
                                 </ItemTemplate>
                             </asp:TemplateField>
                             
-                            <asp:TemplateField HeaderText="Edit">
+                           <%-- <asp:TemplateField HeaderText="Edit">
                                 <ItemTemplate>
                                     <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%# Eval(" JobId ") %>' CommandName="cmd_edt">✏️</asp:LinkButton>
                                 </ItemTemplate>
-                            </asp:TemplateField>
+                            </asp:TemplateField>--%>
                             <asp:TemplateField HeaderText="Delete">
                                 <ItemTemplate>
                                     <asp:LinkButton ID="LinkButton3" runat="server" CommandArgument='<%# Eval("JobId") %>' CommandName="cmd_dlt">❌</asp:LinkButton>
                                 </ItemTemplate>
                             </asp:TemplateField>
+                            
                         </Columns>
                         <HeaderStyle BackColor="#7200cf" ForeColor="White" />
 

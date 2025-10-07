@@ -43,6 +43,7 @@ namespace OnlineJobPortal.Admin
                 cmd.ExecuteNonQuery();
                 clear();
                 Response.Redirect("AdminLogin.aspx");
+                
 
             }
         }

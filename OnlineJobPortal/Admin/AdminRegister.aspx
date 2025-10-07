@@ -95,6 +95,7 @@
                     </tr>
                 </table>
                 <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click" />
+                <span class="clickLink" forcolor="blue"><a href="../Admin/AdminLogin.aspx">Already Ragister? Click Here...</a></span>
             </center>
         </div>
     </form>

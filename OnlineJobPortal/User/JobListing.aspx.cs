@@ -22,7 +22,7 @@ namespace OnlineJobPortal.User
         String fnm;
 
         PagedDataSource pg;
-        int row = 3, p;
+        int row = 3, p, i;
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
@@ -42,6 +42,7 @@ namespace OnlineJobPortal.User
         void filllist()
         {
             getcon();
+
             da = new SqlDataAdapter("select * from AddNewJob", con);
             ds = new DataSet();
             da.Fill(ds);
@@ -49,7 +50,7 @@ namespace OnlineJobPortal.User
             row = ds.Tables[0].Rows.Count;
             pg = new PagedDataSource();
 
-            //pg.AllowPaging = true;
+            pg.AllowPaging = true;
             //pg.PageSize = 3;
             //pg.CurrentPageIndex = Convert.ToInt32(ViewState["jid"]);
 
@@ -59,9 +60,77 @@ namespace OnlineJobPortal.User
 
         }
 
+        protected void ddlCountry_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            // getcon();
+            //cmd = new SqlCommand("select * from AddNewJob where Country = '" + ddlCountry.Text + "'", con);
+            //i = Convert.ToInt32(cmd.ExecuteScalar());
+            getcon();
+
+            da = new SqlDataAdapter("select * from AddNewJob where Country = '" + ddlCountry.SelectedValue + "'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+
+            //row = ds.Tables[0].Rows.Count;
+            //pg = new PagedDataSource();
+
+            //pg.AllowPaging = true;
+            ////pg.PageSize = 3;
+            ////pg.CurrentPageIndex = Convert.ToInt32(ViewState["jid"]);
+
+            //pg.DataSource = ds.Tables[0].DefaultView;
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
+        }
+
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // getcon();
+            //cmd = new SqlCommand("select * from AddNewJob where Country = '" + ddlCountry.Text + "'", con);
+            //i = Convert.ToInt32(cmd.ExecuteScalar());
+            getcon();
+
+            da = new SqlDataAdapter("select * from AddNewJob where JobType = '" + CheckBoxList1.SelectedValue + "'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+
+            //row = ds.Tables[0].Rows.Count;
+            //pg = new PagedDataSource();
+
+            //pg.AllowPaging = true;
+            ////pg.PageSize = 3;
+            ////pg.CurrentPageIndex = Convert.ToInt32(ViewState["jid"]);
+
+            //pg.DataSource = ds.Tables[0].DefaultView;
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
+        }
+
+        protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            // getcon();
+            //cmd = new SqlCommand("select * from AddNewJob where Country = '" + ddlCountry.Text + "'", con);
+            //i = Convert.ToInt32(cmd.ExecuteScalar());
+            getcon();
+
+            da = new SqlDataAdapter("select * from AddNewJob where JobType = '" + CheckBoxList1.SelectedValue + "'", con);
+            ds = new DataSet();
+            da.Fill(ds);
+
+            //row = ds.Tables[0].Rows.Count;
+            //pg = new PagedDataSource();
+
+            //pg.AllowPaging = true;
+            ////pg.PageSize = 3;
+            ////pg.CurrentPageIndex = Convert.ToInt32(ViewState["jid"]);
+
+            //pg.DataSource = ds.Tables[0].DefaultView;
+            DataList1.DataSource = ds;
+            DataList1.DataBind();
 
 
-
+        }
 
 
 
@@ -124,20 +193,21 @@ namespace OnlineJobPortal.User
             return "";
         }
 
-        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
 
-        protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         protected void lbFilter_Click(object sender, EventArgs e)
         {
 
         }
+
+        protected void DataList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
 
         protected void lbReset_Click(object sender, EventArgs e)
         {

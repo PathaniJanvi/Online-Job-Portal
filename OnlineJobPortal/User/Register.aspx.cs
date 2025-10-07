@@ -37,7 +37,7 @@ namespace OnlineJobPortal.User
         {
             if (flpImage.HasFile)
             {
-                fnm = "RegisterImage/" + flpImage.FileName;
+                fnm = "../RegisterImage/" + flpImage.FileName;
                 flpImage.SaveAs(Server.MapPath(fnm));
             }
         }

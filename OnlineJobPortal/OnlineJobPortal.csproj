@@ -73,6 +73,7 @@
     <Content Include="Admin\Dashbord.aspx" />
     <Content Include="Admin\JobList.aspx" />
     <Content Include="Admin\NewJob.aspx" />
+    <Content Include="Admin\UserList.aspx" />
     <Content Include="App_Data\job_db.mdf" />
     <Content Include="App_Data\job_db_log.ldf">
       <DependentUpon>job_db.mdf</DependentUpon>
@@ -231,10 +232,11 @@
     <Content Include="User\.gitignore" />
     <Content Include="User\About.aspx" />
     <Content Include="User\Contact.aspx" />
-    <Content Include="User\Default.aspx" />
+    <Content Include="User\Index.aspx" />
     <Content Include="User\JobDetails.aspx" />
     <Content Include="User\JobListing.aspx" />
     <Content Include="User\Login.aspx" />
+    <Content Include="User\Logout.aspx" />
     <Content Include="User\Profile.aspx" />
     <Content Include="User\Register.aspx" />
     <Content Include="Web.config" />
@@ -289,6 +291,13 @@
     <Compile Include="Admin\NewJob.aspx.designer.cs">
       <DependentUpon>NewJob.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="assets\scss\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -311,12 +320,12 @@
     <Compile Include="User\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="User\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="User\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\JobDetails.aspx.cs">
       <DependentUpon>JobDetails.aspx</DependentUpon>
@@ -338,6 +347,13 @@
     </Compile>
     <Compile Include="User\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
@@ -420,9 +436,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\CompanyLogo\" />
+    <Folder Include="CompanyLogo\" />
     <Folder Include="Image\" />
-    <Folder Include="User\RegisterImage\" />
+    <Folder Include="RegisterImage\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

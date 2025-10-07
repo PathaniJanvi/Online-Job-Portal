@@ -44,11 +44,11 @@ namespace OnlineJobPortal.User
                 if (i > 0)
                 {
                     Session["admin"] = txtUserName.Text;
-                    Response.Redirect("Default.aspx");
+                    Response.Redirect("Index.aspx");
                 }
                 else
                 {
-                    Response.Write("<script> alrt('Invalid User')</script>");
+                    Response.Write("<script> alert('Invalid User')</script>");
                 }
 
 
