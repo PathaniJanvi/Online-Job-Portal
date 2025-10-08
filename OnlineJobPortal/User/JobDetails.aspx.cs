@@ -55,9 +55,13 @@ namespace OnlineJobPortal.User
                 {
 
                     getcon();
-                    int RegisterId = Convert.ToInt32(Session["RegisterId"]);
+                    da = new SqlDataAdapter("Select * from Register where UserName='" + Session["admin"] + "'", con);
+                    ds = new DataSet();
+                    da.Fill(ds);
+                    int RegisterId = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
 
                     int JobId = Convert.ToInt32(Request.QueryString["id"]);
+
 
                     cmd = new SqlCommand("insert into ApplyJob(RegisterId,JobId) values('"+RegisterId+"','"+JobId+"')", con);
                     cmd.ExecuteNonQuery();

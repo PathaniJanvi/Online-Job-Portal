@@ -22,6 +22,10 @@ namespace OnlineJobPortal.Admin
         {
             getcon();
             fillgrid();
+            if (Session["admin"] == null)
+            {
+                Response.Redirect("AdminLogin.aspx");
+            }
         }
         void getcon()
         {
@@ -51,9 +55,11 @@ namespace OnlineJobPortal.Admin
                 cmd = new SqlCommand("delete from AddNewJob where JobId='" + ViewState["id"] + "'", con);
                 cmd.ExecuteNonQuery();
                 fillgrid();
+                Response.Write("<script> alert('Job Delete successfully')</script>");
+
 
             }
-           
+
         }
     }
 

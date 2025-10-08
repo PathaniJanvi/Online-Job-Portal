@@ -71,6 +71,7 @@
     <Content Include="Admin\AdminRegister.aspx" />
     <Content Include="Admin\ContactList.aspx" />
     <Content Include="Admin\Dashbord.aspx" />
+    <Content Include="Admin\JobApplyList.aspx" />
     <Content Include="Admin\JobList.aspx" />
     <Content Include="Admin\NewJob.aspx" />
     <Content Include="Admin\UserList.aspx" />
@@ -276,6 +277,13 @@
     </Compile>
     <Compile Include="Admin\Dashbord.aspx.designer.cs">
       <DependentUpon>Dashbord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\JobApplyList.aspx.cs">
+      <DependentUpon>JobApplyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\JobApplyList.aspx.designer.cs">
+      <DependentUpon>JobApplyList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\JobList.aspx.cs">
       <DependentUpon>JobList.aspx</DependentUpon>

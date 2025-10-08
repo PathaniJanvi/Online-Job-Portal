@@ -23,7 +23,11 @@ namespace OnlineJobPortal.Admin
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
-            fillgrid(); 
+            fillgrid();
+            if (Session["admin"] == null)
+            {
+                Response.Redirect("AdminLogin.aspx");
+            }
         }
         void getcon()
         {
@@ -72,6 +76,7 @@ namespace OnlineJobPortal.Admin
                 cmd = new SqlCommand("delete from Contact where ContactId= '" + ViewState["id"] + "'", con);
                 cmd.ExecuteNonQuery();
                 fillgrid();
+                Response.Write("<script> alert('Contact Delete successfully')</script>");
             }
         }
 

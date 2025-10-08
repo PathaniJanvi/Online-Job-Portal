@@ -13,7 +13,10 @@ namespace OnlineJobPortal.User
         {
             Session.Clear();
             Session.Abandon();
+            Response.Write("<script> alert('Logout successfully')</script>");
             Response.Redirect("Index.aspx");
+           
+
         }
     }
 }

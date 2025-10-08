@@ -90,7 +90,12 @@
                                 <div class="title">Job List</div>
                             </a>
                         </li>
-
+                        <li>
+                            <a href="JobApplyList.aspx">
+                                <div class="icon"><i class="fas fa-file-alt"></i></div>
+                                <div class="title">JobApply List</div>
+                            </a>
+                        </li>
                         <li>
                             <a href="ViewResume.aspx">
                                 <div class="icon"><i class="fas fa-file-download"></i></div>

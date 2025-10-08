@@ -21,7 +21,10 @@ namespace OnlineJobPortal.Admin
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
-            
+            if (Session["admin"] == null)
+            {
+                Response.Redirect("AdminLogin.aspx");
+            }
         }
         void getcon()
         {
@@ -65,6 +68,7 @@ namespace OnlineJobPortal.Admin
                 cmd.ExecuteNonQuery();
                 clear();
                 //clear();
+                Response.Write("<script> alert('Add New Job successfully')</script>");
 
 
             }
