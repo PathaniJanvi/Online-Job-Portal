@@ -3,67 +3,71 @@
   "WorkspaceRootPath": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\user\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\user\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\newjob.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\newjob.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\joblist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\joblist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\joblist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\jobapplylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\jobapplylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\jobapplylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\dashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\dashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\dashbord.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\dashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\dashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\dashbord.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\user\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\user\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\user\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\user\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\user\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\user\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\adminregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\adminregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\adminregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\adminmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\adminmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\adminmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\user\\jobdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\user\\jobdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\user\\jobdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\jobapplylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\jobapplylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\jobapplylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|e:\\5th bca\\asp.net(pb)\\onlinejobportal\\onlinejobportal\\assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\onlinejobportal\\assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D870C2D9-37B9-43D7-89EB-E69DA583C0EE}|OnlineJobPortal\\OnlineJobPortal.csproj|solutionrelative:onlinejobportal\\assets\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\User\\Register.aspx",
+              "RelativeDocumentMoniker": "OnlineJobPortal\\User\\Register.aspx",
+              "ToolTip": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\User\\Register.aspx",
+              "RelativeToolTip": "OnlineJobPortal\\User\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-08T15:19:27.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Dashbord.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\Dashbord.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\Dashbord.aspx.cs",
@@ -98,12 +115,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\Dashbord.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:53:33.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:53:33.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Dashbord.aspx",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\Dashbord.aspx",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\Dashbord.aspx",
@@ -111,12 +127,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\Dashbord.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-08T09:53:29.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:53:29.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Profile.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\User\\Profile.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\User\\Profile.aspx.cs",
@@ -124,12 +139,11 @@
               "RelativeToolTip": "OnlineJobPortal\\User\\Profile.aspx.cs",
               "ViewState": "AgIAAC0AAAAAzczMzMwXwDYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:42:53.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:42:53.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Logout.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\User\\Logout.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\User\\Logout.aspx.cs",
@@ -137,12 +151,11 @@
               "RelativeToolTip": "OnlineJobPortal\\User\\Logout.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:38:54.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:38:54.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AdminLogin.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\AdminLogin.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\AdminLogin.aspx.cs",
@@ -150,12 +163,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\AdminLogin.aspx.cs",
               "ViewState": "AgIAAB0AAAAAzczMzAwnwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:38:36.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:38:36.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AdminRegister.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\AdminRegister.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\AdminRegister.aspx.cs",
@@ -163,12 +175,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\AdminRegister.aspx.cs",
               "ViewState": "AgIAAAsAAACAZmZmZuYswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:38:30.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:38:30.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewJob.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\NewJob.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\NewJob.aspx.cs",
@@ -181,20 +192,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JobList.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobList.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\JobList.aspx.cs",
-              "ToolTip": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobList.aspx.cs*",
-              "RelativeToolTip": "OnlineJobPortal\\Admin\\JobList.aspx.cs*",
+              "ToolTip": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobList.aspx.cs",
+              "RelativeToolTip": "OnlineJobPortal\\Admin\\JobList.aspx.cs",
               "ViewState": "AgIAAAYAAAAwAAAAAAAhwBsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:37:12.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:37:12.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "JobDetails.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\User\\JobDetails.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\User\\JobDetails.aspx.cs",
@@ -202,37 +212,34 @@
               "RelativeToolTip": "OnlineJobPortal\\User\\JobDetails.aspx.cs",
               "ViewState": "AgIAACwAAACAZmZmZoY+wEMAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:35:31.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:35:31.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\assets\\css\\bootstrap.min.css",
               "RelativeDocumentMoniker": "OnlineJobPortal\\assets\\css\\bootstrap.min.css",
               "ToolTip": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\assets\\css\\bootstrap.min.css",
               "RelativeToolTip": "OnlineJobPortal\\assets\\css\\bootstrap.min.css",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-08T09:34:05.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:34:05.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JobApplyList.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobApplyList.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\JobApplyList.aspx.cs",
-              "ToolTip": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobApplyList.aspx.cs*",
-              "RelativeToolTip": "OnlineJobPortal\\Admin\\JobApplyList.aspx.cs*",
+              "ToolTip": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobApplyList.aspx.cs",
+              "RelativeToolTip": "OnlineJobPortal\\Admin\\JobApplyList.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:29:32.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:29:32.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "JobApplyList.aspx",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\JobApplyList.aspx",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\JobApplyList.aspx",
@@ -240,12 +247,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\JobApplyList.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-08T09:23:33.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:23:33.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ContactList.aspx",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\ContactList.aspx",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\ContactList.aspx",
@@ -253,12 +259,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\ContactList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-08T09:22:06.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:22:06.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ContactList.aspx.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\ContactList.aspx.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\ContactList.aspx.cs",
@@ -266,12 +271,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\ContactList.aspx.cs",
               "ViewState": "AgIAAAYAAAAAzczMzMwXwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:22:03.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:22:03.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AdminMaster.Master",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\AdminMaster.Master",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\AdminMaster.Master",
@@ -279,12 +283,11 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\AdminMaster.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-08T09:20:09.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:20:09.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AdminMaster.Master.cs",
               "DocumentMoniker": "E:\\5th BCA\\ASP.NET(PB)\\OnlineJobPortal\\OnlineJobPortal\\Admin\\AdminMaster.Master.cs",
               "RelativeDocumentMoniker": "OnlineJobPortal\\Admin\\AdminMaster.Master.cs",
@@ -292,8 +295,7 @@
               "RelativeToolTip": "OnlineJobPortal\\Admin\\AdminMaster.Master.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T09:20:06.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T09:20:06.913Z"
             }
           ]
         }
