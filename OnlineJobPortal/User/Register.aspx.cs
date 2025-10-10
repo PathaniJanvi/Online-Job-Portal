@@ -18,7 +18,7 @@ namespace OnlineJobPortal.User
         SqlCommand cmd;
         SqlDataAdapter da;
         DataSet ds;
-        string fnm;
+        string fnm,re;
         protected void Page_Load(object sender, EventArgs e)
         {
             getcon();
@@ -39,6 +39,12 @@ namespace OnlineJobPortal.User
             {
                 fnm = "../RegisterImage/" + flpImage.FileName;
                 flpImage.SaveAs(Server.MapPath(fnm));
+               
+            }
+            if (flpResume.HasFile)
+            {
+                re = "../Resume/" + flpResume.FileName;
+                flpResume.SaveAs(Server.MapPath(re));
             }
         }
         protected void btnRegister_Click(object sender, EventArgs e)
@@ -47,7 +53,7 @@ namespace OnlineJobPortal.User
             {
                 getcon();
                 imgupload();
-                cmd = new SqlCommand("insert into Register(UserName,PassWord,FullName,Image,Gender,Address,MobileNumber,Email) values('" + txtUserName.Text + "' , '" + txtPassword.Text + "' ,  '" + txtFullName.Text + "', '" + fnm + "' ,'" + rdbGender.Text + "', '" + txtAddress.Text + "', '" + txtMobile.Text + "' , '" + txtEmail.Text + "')", con);
+                cmd = new SqlCommand("insert into Register(UserName,PassWord,FullName,Image,Resume,Gender,Address,MobileNumber,Email) values('" + txtUserName.Text + "' , '" + txtPassword.Text + "' ,  '" + txtFullName.Text + "', '" + fnm + "','" + re + "' ,'" + rdbGender.Text + "', '" + txtAddress.Text + "', '" + txtMobile.Text + "' , '" + txtEmail.Text + "')", con);
                 cmd.ExecuteNonQuery();
                 clear();
                 Response.Redirect("Login.aspx");

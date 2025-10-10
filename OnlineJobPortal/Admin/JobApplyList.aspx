@@ -8,7 +8,7 @@
             <div class="container-fluid pt-4 pb-4">
                 <asp:Label ID="lblMsg" runat="server"></asp:Label>
 
-                <h3 class="text-center">Contact List/Details</h3>
+                <h3 class="text-center">Apply Job List/Details</h3>
 
                 <div class="row mb-3 pt-sm-3">
                     <div class="col-md-12">

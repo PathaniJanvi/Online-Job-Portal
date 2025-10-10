@@ -59,15 +59,22 @@
                                 <div class="col-12">
                                     <div class="form-group">
                                         <asp:Label ID="Label9" runat="server" Text="Your Photo"></asp:Label>
-                                        <asp:FileUpload ID="flpImage" runat="server"  class="form-control w-100"/>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Plase Uload Image"  ControlToValidate="flpImage" ForeColor="Red" Display="Dynamic" Font-Size="Small"></asp:RequiredFieldValidator>
+                                        <asp:FileUpload ID="flpImage" runat="server" class="form-control w-100" />
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Plase Uload Image" ControlToValidate="flpImage" ForeColor="Red" Display="Dynamic" Font-Size="Small"></asp:RequiredFieldValidator>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <asp:Label ID="Label10" runat="server" Text="Your Resume"></asp:Label>
+                                        <asp:FileUpload ID="flpResume" runat="server" class="form-control w-100" />
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ErrorMessage="Plase Uload your Resume" ControlToValidate="flpResume" ForeColor="Red" Display="Dynamic" Font-Size="Small"></asp:RequiredFieldValidator>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
                                         <asp:Label ID="Label8" runat="server" Text="Gender"></asp:Label>
                                         <%--<input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">--%>
-                                        <asp:RadioButtonList ID="rdbGender" runat="server"  class="form-control w-100" RepeatDirection="Horizontal">
+                                        <asp:RadioButtonList ID="rdbGender" runat="server" class="form-control w-100" RepeatDirection="Horizontal">
                                             <asp:ListItem>Male</asp:ListItem>
                                             <asp:ListItem>Female</asp:ListItem>
                                         </asp:RadioButtonList>
@@ -104,18 +111,17 @@
                                     </div>
                                 </div>
                             </div>
-                    </div>
-                    <div class="form-group mt-3 text-xl-center">
-                        <%--<button type="submit" class="button button-contactForm boxed-btn">Send</button>--%>
-                        <asp:Button ID="btnRegister" class="button button-contactForm boxed-btn" runat="server" Text="Register" OnClick="btnRegister_Click" />
-                        <span class="clickLink" forcolor="read"><a href="../User/Login.aspx">Already Ragister? Click Here...</a></span>
+                        </div>
+                        <div class="form-group mt-3 text-xl-center">
+                            <%--<button type="submit" class="button button-contactForm boxed-btn">Send</button>--%>
+                            <asp:Button ID="btnRegister" class="button button-contactForm boxed-btn" runat="server" Text="Register" OnClick="btnRegister_Click" />
+                            <span class="clickLink" forcolor="read"><a href="../User/Login.aspx">Already Ragister? Click Here...</a></span>
+
+                        </div>
 
                     </div>
-
                 </div>
             </div>
-        </div>
-
     </section>
 
 </asp:Content>

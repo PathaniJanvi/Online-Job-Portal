@@ -75,6 +75,7 @@
     <Content Include="Admin\JobList.aspx" />
     <Content Include="Admin\NewJob.aspx" />
     <Content Include="Admin\UserList.aspx" />
+    <Content Include="Admin\ViewResume.aspx" />
     <Content Include="App_Data\job_db.mdf" />
     <Content Include="App_Data\job_db_log.ldf">
       <DependentUpon>job_db.mdf</DependentUpon>
@@ -306,6 +307,13 @@
     <Compile Include="Admin\UserList.aspx.designer.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\ViewResume.aspx.cs">
+      <DependentUpon>ViewResume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ViewResume.aspx.designer.cs">
+      <DependentUpon>ViewResume.aspx</DependentUpon>
+    </Compile>
     <Compile Include="assets\scss\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -447,6 +455,7 @@
     <Folder Include="CompanyLogo\" />
     <Folder Include="Image\" />
     <Folder Include="RegisterImage\" />
+    <Folder Include="Resume\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

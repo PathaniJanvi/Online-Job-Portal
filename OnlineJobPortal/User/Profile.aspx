@@ -15,8 +15,8 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="d-flex flex-column align-items-center text-center">
-                                        <asp:Image ID="Image1" runat="server" alt="UserPic" class="rounded-circle" width="150" ImageUrl='<%# Eval("Image") %>' />
-<%--                                        <ImageUrl='<%# Eval("Image") %>' alt="UserPic" class="rounded-circle" width="150">--%>
+                                        <asp:Image ID="Image1" runat="server" alt="UserPic" class="rounded-circle" Width="150" ImageUrl='<%# Eval("Image") %>' />
+                                        <%--                                        <ImageUrl='<%# Eval("Image") %>' alt="UserPic" class="rounded-circle" width="150">--%>
                                         <div class="mt-3">
                                             <h4 class="text-capitalize"><%# Eval("FullName") %></h4>
                                             <p class="text-secondary mb-1">@<%# Eval("UserName") %></p>
@@ -72,22 +72,24 @@
                                         <div class="col-sm-3">
                                             <h6 class="mb-0">Resume Upload</h6>
                                         </div>
-                                        <%--<div class="col-sm-9 text-secondary text-capitalize">
-                                        <% Eval("Resume") /*== DBNull.Value ? "Not Uploaded" : "Uploaded"*/ %>
-                                    </div>--%>
+                                        <div class="col-sm-9 text-secondary text-capitalize">
+                                            <%# string.IsNullOrEmpty(Eval("Resume") as string) ? "Not Uploaded" : "Uploaded" %>
+                                        </div>
                                     </div>
-                                    <hr />
-                                    <%--<div class="row">
+
+                                </div>
+                                <hr />
+                                <%--<div class="row">
                                     <div class="col-sm-12">
                                         <asp:Button ID="btnEdit" runat="server" Text="Edit" CssClass="button button-contactForm boxed-btn" CommandName="EditUserProfile" CommandArgument="" />
                                     </div>
                                 </div>--%>
-                                </div>
                             </div>
                         </div>
                     </div>
+                    </div>
                 </ItemTemplate>
-                
+
 
 
             </asp:DataList>

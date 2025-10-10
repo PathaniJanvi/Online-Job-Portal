@@ -65,7 +65,7 @@ namespace OnlineJobPortal.User
 
                     cmd = new SqlCommand("insert into ApplyJob(RegisterId,JobId) values('"+RegisterId+"','"+JobId+"')", con);
                     cmd.ExecuteNonQuery();
-                    Response.Write("<script> alert('Job Apply successfully')</script>");
+                    Response.Write("<script> alert('✅ Application submitted! We’ll get back to you soon.')</script>");
 
                 }
                 else
